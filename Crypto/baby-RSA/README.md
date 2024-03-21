@@ -1,7 +1,8 @@
 # baby RSA 
 ## Author : rasimhankunrava
 
-### Description: Is factoring hard ?
+### Description :
+Is factoring hard ?
 
 ### Files :
 - [script.py](script.py)
