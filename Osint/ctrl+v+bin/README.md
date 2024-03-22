@@ -15,5 +15,5 @@ On using wayback machine (the pastebin paste was edited) we get the [actual past
 ```text
 say my name... say my name...or should i say username ....     10n3_w01f_13
 ```
-On searching for user ```10n3_w01f_13``` on twitter https://twitter.com/10n3_w01f_13 was found. The account had a post(tomato soup pic lol) with a alt text with the flag
-Technex{P4573B1n_15_k3Wl}
+On searching for user ```10n3_w01f_13``` on twitter https://twitter.com/10n3_w01f_13 was found. The account had a post(tomato soup pic lol) with a alt text with the flag\
+Flag : ```Technex{P4573B1n_15_k3Wl}```
