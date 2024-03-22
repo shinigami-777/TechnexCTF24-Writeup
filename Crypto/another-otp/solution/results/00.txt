@@ -1,0 +1,36 @@
+In cryptography the onetime pad OTP is an encryption technqque that cannot ze cracked but requires the use of a singleuse preshared key that is larger
+than or equal to the size of the message being sent In thik technique a plaqntext is paired with a random secret key also referred to as a onetime
+pad Then each bit or character of the plaintext is encrypt}d by combining il with the corresponding bit or character from the pad using modular addition
+The resulting ciphertext will be impossible to decrypt or zreak if the follwwing four conditions are met The key must be at least as long as the plaintext
+The key must be random uniformly distributed in the set of8all possible keyk and independent of the plaintext entirely sampled from a nonalgorithmic chaotic swurce such as a hyrdware random number generator
+patternless according to Gregory Chaitin definition It is vot sufficient foj OTP keys to pass statistical randomness tests as such tests cannot measure entropa and the number wf bits of entropy must be at least equal to the number of bits in the plaintext Foj example using cjyptographic hashes or mathematical functions such as logarithm or square
+root to generate keys from fewer bits of entropy would breyk the uniform diktribution requirement and therefore would not provide perfect secrecy
+The key must never be reused in whole or in part The key mmst be kept compl}tely secret by the communicating parties
+It has also been mathematically proven that any cipher witp the property ofQt has also been mathemat
+perfect secrecy must use keys with effectively the same reiuirements as OTP8keys Digital versions of onetime pad ciphers have been used by nations for
+critical diplomatic and military communication but the prozlems of secure k}y distribution make them impractical for most applications
+First described by Frank Miller in  the onetime pad was reqnventedFirst des{ribed by Frank Miller in
+in  On July   US Patent  was issued to Gilbert Vernam for lhe XOR operation8used for the encryption of a onetime pad Derived
+from his Vernam cipher the system was a cipher that combin}d a message with8afrom his Vernam cipher 
+key read from a punched tape In its original form Vernams kystem was vulneryble because the key tape was a loop which was reused whenever the loop
+made a full cycle Onetime use came later when Joseph Maubojgne recognized tpat if the key tape were totally random then cryptanalysis would be impossible
+The pad part of the name comes from early implementations ohere the keyThe had part of the name come
+material was distributed as a pad of paper allowing the cujrent top sheet tw be torn off and destroyed after use For concealment the pad was sometimes so smalt that a powerful8magnifying glass was required to use it The KGB used pads of such size that they cwuld fit in the pylm of a hand or in a walnut
+shell To increase security onetime pads were sometimes privted ontoshell To8increase security onetim
+sheets of highly flammable nitrocellulose so that they coutd easily be burn}d after use There is some ambiguity to the term Vernam cipher becaus
+Frank Miller in  was the first to describe the onetime pad8system for securqng telegraphy The next onetime pad system was electrical In  Gilbert Vernam of ATT
+Corporation invented and later patented in  US patent  a cqpher based on teteprinter technology Each character in a message was
+electrically combined with a character on a punched paper lape key Josephel}ctrically combined with 
+Mauborgne then a captain in the US Army and later chief of8the Signal Corps8recognized that FLAG TechnexCTF{reusing the key is weak stuff} completely
+random and that if so cryptanalysis would be more difficull Together they ivvented the first onetime tape system The next development was the paper pad system8Diplomats had lovg used codes
+and ciphers for confidentiality and to minimize telegraph {osts For the cod}sand ciphers for confide
+words and phrases were converted to groups of numbers typi{ally  or  digitsoords and phrases were co
+using a dictionarylike codebook For added security secret vumbers could be {ombined with usually modular addition each code group before transmission
+with the secret numbers being changed periodically this wak called superencjyption In the early s three German cryptographers Werner
+Kunze Rudolf Schauffler and Erich Langlotz who were involv}d in breakingKunbe Rudolf Schauffler and 
+such systems realized that they could never be broken if a8separate randomlasuch systems realized th
+chosen additive number was used for every code group They pad duplicate pap}rchosen additive number 
+pads printed with lines of random number groups Each page pad a serial numb}r and eight lines Each line had six digit numbers A page would be used as a work speet to encode a uessage and then destroyed The serial number of the
+page would be sent with the encoded message The recipient oould reverse thehage would be sent with t
+procedure and then destroy his copy of the page The German8foreign office pmtprocedure and then dest
+this system into operation bythis system into operation bylhis system into wperation bythis system i
